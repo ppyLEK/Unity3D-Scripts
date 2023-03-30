@@ -29,7 +29,7 @@ namespace ppyLEK.Controller.Player
 
         public void GetEquipmentEffects()
         {
-            mouseSensitivity = playerRoot.GetComponent(EquipmentEffect).MouseSpeed();
+            mouseSensitivity = playerRoot.GetComponent<EquipmentEffect>().MouseSpeed();
         }
     }
 }
