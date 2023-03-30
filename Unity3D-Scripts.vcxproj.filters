@@ -16,5 +16,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Universal\Parse.cs" />
+    <None Include="Assets\Universal\Gamestate\PlayerSceneData.cs" />
   </ItemGroup>
 </Project>

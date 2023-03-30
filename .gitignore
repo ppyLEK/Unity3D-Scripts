@@ -185,3 +185,5 @@ ClientBin/
 *.publishsettings
 node_modules/
 orleans.codegen.c
+*.db
+.vs/Unity3D-Scripts/v17/.suo
