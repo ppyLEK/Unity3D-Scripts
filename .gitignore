@@ -1,4 +1,4 @@
-.vs
+*.vs
 *.lock
 .vs/Unity3D-Scripts/v17/.suo
 *.filters
