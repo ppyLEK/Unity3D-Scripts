@@ -17,8 +17,8 @@ namespace ppyLEK.Controller.Audio
             terrainDetector = new TerrainDetector();
         }
 
-        //Step is an event from the Animation itself, everytime the animation fires "Step" , a Clip gets played
-        private void Step()
+        
+        public void Step() //Step event tied to animator.cs
         {
             AudioClip clip = GetRandomClip();
             audioSource.PlayOneShot(clip);

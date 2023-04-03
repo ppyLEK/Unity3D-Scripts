@@ -17,5 +17,11 @@
   <ItemGroup>
     <None Include="Universal\Parse.cs" />
     <None Include="Assets\Universal\Gamestate\PlayerSceneData.cs" />
+    <None Include="Assets\Controller\Audio\Footsteps\TerrainDetetor.cs" />
+    <None Include="Assets\Controller\Audio\Footsteps\TerrainStep.cs" />
+    <None Include="Assets\Controller\Player\VariableMouseLook.cs" />
+    <None Include="Assets\Universal\GameManager\DebugConsole.cs" />
+    <None Include="Assets\Universal\GameManager\DebugInfo.cs" />
+    <None Include="Assets\wip\.move_files_once_done" />
   </ItemGroup>
 </Project>

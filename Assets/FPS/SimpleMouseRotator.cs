@@ -1,7 +1,5 @@
 using System;
 using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
-
 namespace ppyLEK.Fps
 {
     public class SimpleMouseRotator : MonoBehaviour
@@ -35,8 +33,8 @@ namespace ppyLEK.Fps
             float inputV;
             if (relative)
             {
-                inputH = CrossPlatformInputManager.GetAxis("Mouse X");
-                inputV = CrossPlatformInputManager.GetAxis("Mouse Y");
+                inputH = Input.GetAxis("Mouse X");
+                inputV = Input.GetAxis("Mouse Y");
 
                 if (m_TargetAngles.y > 180)
                 {
